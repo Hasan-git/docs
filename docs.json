@@ -9,6 +9,31 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+      "dropdowns": [
+    {
+      "dropdown": "Documentation",
+      "icon": "book-open",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation",
+        "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "dropdown": "API References",
+      "icon": "sqaure-terminal",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "dropdown": "Blog",
+      "href": "https://external-link.com/blog"
+    }
+  ],
     "tabs": [
       {
         "tab": "Guides",
