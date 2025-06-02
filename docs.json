@@ -29,11 +29,10 @@
                         "group": "introduction",
                         "pages": [
                             "introduction/overview",
+                             "introduction/workflow",
                             "introduction/core",
-                            "introduction/user role and access",
-                            "essentials/settings",
-                            "essentials/navigation",
-                            "essentials/reusable-snippets"
+                            "introduction/user role and access"
+                            
                         ]
                     }
                 ]
