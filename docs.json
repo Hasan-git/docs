@@ -19,24 +19,18 @@
                             "introduction"
                         ]
                     },
-                    {
-                        "group": "introduction",
-                        "pages": [
-                            "introduction/What is Medray?",
-                            "introduction/who it's for?"
-                        ]
-                    },
+                   
 
                   {
                     "group":"system overview"
                   },
                   
                     {
-                        "group": "Essentials",
+                        "group": "introduction",
                         "pages": [
-                            "essentials/markdown",
-                            "essentials/code",
-                            "essentials/images",
+                            "introduction/overview",
+                            "introduction/core",
+                            "introduction/user role and access",
                             "essentials/settings",
                             "essentials/navigation",
                             "essentials/reusable-snippets"
