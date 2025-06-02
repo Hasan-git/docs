@@ -14,12 +14,19 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Patients",
-            "pages": [
-              "Patients/Introduction"
+            "group":"Welcome",
+            "pages":[
+              "introduction"
             ]
           },
           {
+            "group": "Patients",
+            "pages": [
+              "Patients/Introduction",
+              "Patients/Introduction"
+            ]
+          },
+           {
             "group": "Essentials",
             "pages": [
               "essentials/markdown",
