@@ -22,9 +22,11 @@
                   {
                         "group": "introduction",
                         "pages": [
+                          "introduction/useRole",
                             "introduction/overview",
                              "introduction/workflow",
-                            "introduction/core"                            
+                            "introduction/core"
+                           
                         ]
                     }
                 ]
