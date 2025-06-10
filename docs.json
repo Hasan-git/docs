@@ -22,7 +22,7 @@
                   {
                         "group": "introduction",
                         "pages": [
-                          "introduction/useRole",
+                          "introduction/userRole",
                             "introduction/overview",
                              "introduction/workflow",
                             "introduction/core"
