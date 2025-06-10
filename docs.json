@@ -18,21 +18,14 @@
                         "pages": [
                             "Welcome/introduction"
                         ]
-                    },
-                   
-
-                  {
-                    "group":"system overview"
-                  },
+                    },                   
                   
                     {
                         "group": "introduction",
                         "pages": [
                             "introduction/overview",
                              "introduction/workflow",
-                            "introduction/core",
-                            "introduction/user role and access"
-                            
+                            "introduction/core"                            
                         ]
                     }
                 ]
