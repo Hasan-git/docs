@@ -1,5 +1,113 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "🔄 MedRay Workflow"
+description: "This section outlines the standard workflow in MedRay from patient intake to encounter documentation and billing. Each stage represents a typical role and action in a medical practice."
 ---
 
+# 
+
+---
+
+# 1. 🏥 Patient Registration
+
+## **User**: Receptionist / Admin\
+**Steps**:
+
+- Add new patient profile (demographics, contact, insurance)
+- Upload ID, medical history, previous records (optional)
+- Assign patient to preferred provider
+
+📁 _Module Involved_: Patient Management
+
+---
+
+## 2. 📅 Appointment Scheduling
+
+**User**: Receptionist / Front Desk\
+**Steps**:
+
+- Schedule a new visit from the calendar or patient profile
+- Select provider, visit type, and time slot
+- Send confirmation via SMS/email (automated)
+- Mark as walk-in or recurring if needed
+
+📁 _Module Involved_: Appointment Scheduling
+
+---
+
+## 3. 🚪 Patient Check-in
+
+**User**: Receptionist / Nurse\
+**Steps**:
+
+- Confirm arrival in the schedule dashboard
+- Update insurance info or documents if required
+- Hand off to nursing staff for triage
+
+📁 _Module Involved_: Visit Management
+
+---
+
+## 4. 💉 Triage & Vitals
+
+**User**: Nurse / Assistant\
+**Steps**:
+
+- Record vital signs, allergies, and chief complaint
+- Update past medical, family, and social history
+- Prepare chart for the physician
+
+📁 _Module Involved_: Clinical Documentation → Intake
+
+---
+
+## 5. 🩺 Clinical Encounter
+
+**User**: Physician\
+**Steps**:
+
+- Review history, vitals, and past visits
+- Enter notes using templates (SOAP, free text, forms)
+- Order labs/imaging if necessary
+- Prescribe medications electronically
+
+📁 _Module Involved_: Clinical Notes, Orders, E-Prescribing
+
+---
+
+## 6. 📤 Documentation & Sign-Off
+
+**User**: Physician\
+**Steps**:
+
+- Finalize encounter note
+- Attach lab/imaging results (auto-linked if integrated)
+- Sign and lock note (triggers billing process)
+
+📁 _Module Involved_: Clinical Documentation
+
+---
+
+## 7. 💳 Billing & Claims
+
+**User**: Biller / Admin\
+**Steps**:
+
+- Review coded procedures and diagnoses (ICD/CPT)
+- Generate invoice and insurance claim
+- Submit claims electronically or print CMS 1500/UB-04
+- Track payments and denials
+
+📁 _Module Involved_: Billing & Insurance
+
+---
+
+## 8. 📈 Reports & Follow-Up
+
+**User**: Physician / Admin\
+**Steps**:
+
+- Schedule follow-up or future appointments
+- Generate visit summary or patient instructions
+- Monitor KPIs, outstanding balances, and incomplete charts
+
+📁 _Module Involved_: Reporting, Appointments, Patient Portal (if enabled)
