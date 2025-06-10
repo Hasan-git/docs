@@ -16,11 +16,10 @@
                     {
                         "group": "Welcome",
                         "pages": [
-                            "Welcome/introduction"
+                            "Welcome/Introduction"
                         ]
-                    },                   
-                  
-                    {
+                    },
+                  {
                         "group": "introduction",
                         "pages": [
                             "introduction/overview",
