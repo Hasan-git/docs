@@ -49,8 +49,8 @@
               "Patient/Record/Condition/Operation/Home",
               "Patient/Record/Condition/Operation/ICD10-Code",
 
-              "Patient/Media/Home",
-              "Patient/Media/Filter"
+              "Patient/Record/Media/Home",
+              "Patient/Record/Media/Filter"
             ]
           }
         ]
