@@ -43,21 +43,32 @@
             "pages": [
               "Patient/Home",
               "Patient/Merge-Patients",
-              
-              "Patient/Record/Condition/Home",
-              "Patient/Record/Condition/Followup/Home",
-              "Patient/Record/Condition/Operation/Home",
-              "Patient/Record/Condition/Operation/ICD10-Code",
-
               {
-					"group": "Media",
-					"pages": [
-						"Patient/Record/Condition/Operation/Home",
-              "Patient/Record/Condition/Operation/ICD10-Code"
-					]
-				},
-              "Patient/Record/Media/Home",
-              "Patient/Record/Media/Filter"
+                  "group": "Conditions",
+                  "pages": [
+                    "Patient/Record/Condition/Home",
+                    {
+                        "group": "Followups",
+                        "pages": [
+                           "Patient/Record/Condition/Followup/Home"
+                        ]
+                    },
+                    {
+                        "group": "Operations",
+                        "pages": [
+                           "Patient/Record/Condition/Operation/Home",
+                          "Patient/Record/Condition/Operation/ICD10-Code"
+                        ]
+                    }
+                  ]
+              },
+              {
+      					"group": "Media",
+      					"pages": [
+      						"Patient/Record/Media/Home",
+                  "Patient/Record/Media/Filter"
+      					]
+      				}
             ]
           }
         ]
