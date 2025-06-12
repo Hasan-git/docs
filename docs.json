@@ -49,6 +49,13 @@
               "Patient/Record/Condition/Operation/Home",
               "Patient/Record/Condition/Operation/ICD10-Code",
 
+              {
+					"group": "Media",
+					"pages": [
+						"Patient/Record/Condition/Operation/Home",
+              "Patient/Record/Condition/Operation/ICD10-Code"
+					]
+				},
               "Patient/Record/Media/Home",
               "Patient/Record/Media/Filter"
             ]
