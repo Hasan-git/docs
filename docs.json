@@ -37,6 +37,21 @@
               "GettingStarted/SupportHelp",
               "GettingStarted/QuickVideosTutorial"
             ]
+          },    
+          {
+            "group": "Patients",
+            "pages": [
+              "Patient/Home",
+              "Patient/Merge-Patients",
+              
+              "Patient/Condition/Home",
+              "Patient/Condition/Followup/Home",
+              "Patient/Condition/Operation/Home",
+              "Patient/Condition/Operation/ICD10-Code",
+
+              "Patient/Media/Home",
+              "Patient/Media/Filter"
+            ]
           }
         ]
       },
