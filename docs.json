@@ -44,10 +44,10 @@
               "Patient/Home",
               "Patient/Merge-Patients",
               
-              "Patient/Condition/Home",
-              "Patient/Condition/Followup/Home",
-              "Patient/Condition/Operation/Home",
-              "Patient/Condition/Operation/ICD10-Code",
+              "Patient/Record/Condition/Home",
+              "Patient/Record/Condition/Followup/Home",
+              "Patient/Record/Condition/Operation/Home",
+              "Patient/Record/Condition/Operation/ICD10-Code",
 
               "Patient/Media/Home",
               "Patient/Media/Filter"
