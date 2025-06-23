@@ -15,12 +15,10 @@
         "groups": [
           {
             "group": "Welcome",
-            "pages": [
-              "Welcome/Introduction"
-            ]
+            "pages": ["Welcome/Introduction"]
           },
           {
-            "group": "introduction",
+            "group": "Introduction",
             "pages": [
               "introduction/userRole",
               "introduction/overview",
@@ -37,38 +35,62 @@
               "GettingStarted/SupportHelp",
               "GettingStarted/QuickVideosTutorial"
             ]
-          },    
+          },
           {
             "group": "Patients",
             "pages": [
               "Patient/Home",
               "Patient/Merge-Patients",
               {
-                  "group": "Conditions",
-                  "pages": [
-                    "Patient/Record/Condition/Home",
-                    {
-                        "group": "Followups",
-                        "pages": [
-                           "Patient/Record/Condition/Followup/Home"
-                        ]
-                    },
-                    {
-                        "group": "Operations",
-                        "pages": [
-                           "Patient/Record/Condition/Operation/Home",
-                          "Patient/Record/Condition/Operation/ICD10-Code"
-                        ]
-                    }
-                  ]
+                "group": "Conditions",
+                "pages": [
+                  "Patient/Record/Condition/Home",
+                  {
+                    "group": "Followups",
+                    "pages": ["Patient/Record/Condition/Followup/Home"]
+                  },
+                  {
+                    "group": "Operations",
+                    "pages": [
+                      "Patient/Record/Condition/Operation/Home",
+                      "Patient/Record/Condition/Operation/ICD10-Code"
+                    ]
+                  }
+                ]
               },
               {
-      					"group": "Media",
-      					"pages": [
-      						"Patient/Record/Media/Home",
+                "group": "Media",
+                "pages": [
+                  "Patient/Record/Media/Home",
                   "Patient/Record/Media/Filter"
-      					]
-      				}
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Contacts",
+            "pages": ["contacts/overview"]
+          },
+          {
+            "group": "Schedule",
+            "pages": ["Schedule/overview"]
+          },
+          {
+            "group": "Setting",
+            "pages": [
+              "Setting/overview",
+              {
+                "group": "userManagement",
+                "pages": ["Setting/userMangment/overview"]
+              },
+              {
+                "group": "systemSetting",
+                "pages": ["Setting/systemSetting/overview"]
+              },
+              {
+                "group": "access_security",
+                "pages": ["Setting/access_security/overview"]
+              }
             ]
           }
         ]
@@ -78,9 +100,7 @@
         "groups": [
           {
             "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
+            "pages": ["api-reference/introduction"]
           },
           {
             "group": "Endpoint Examples",
