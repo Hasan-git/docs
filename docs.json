@@ -22,29 +22,30 @@
                     {
                         "group": "Introduction",
                         "pages": [
-                            "introduction/System overview",
-                            "introduction/User Role",
-                            "introduction/Core features"
+                            "introduction/SystemOverview",
+                            "introduction/UserRole",
+                            "introduction/Corefeatures"
                         ]
                     },
                     {
                         "group": "Getting Started",
                         "pages": [
                             "GettingStarted/Login",
-                            "GettingStarted/Layout Guide",
+                            "GettingStarted/LayoutGuide",
                             "GettingStarted/Help"
                         ]
                     },
                     {
                         "group": "Patients",
                         "pages": [
-                            "Patient/Home",
+                            "Patient/Overview",
                             "Patient/Merge-Patients",
+                        
                             {
                                 "group": "Conditions",
                                 "pages": [
                                     "Patient/Record/Condition/Overview",
-                                    "Patient/Record/Condition/Add condition",
+                                    "Patient/Record/Condition/Addcondition",
                                     {
                                         "group": "Followups",
                                         "pages": [
@@ -75,14 +76,14 @@
                         "group": "Contacts",
                         "pages": [
                             "contacts/overview",
-                            "contacts/Add contact"
+                            "contacts/Addcontact"
                         ]
                     },
                     {
                         "group": "Schedule",
                         "pages": [
                             "Schedule/overview",
-                            "Schedule/Add appointment"
+                            "Schedule/Addappointment"
                         ]
                     },
                     {
