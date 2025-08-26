@@ -110,13 +110,21 @@
                             {
                                 "group": "RecordsMangment",
                                 "pages": [
-                                    "Setting/RecordsMangment/overview"
+                                    "Setting/RecordsMangment/overview",
+                                     "Setting/RecordMangment/Drugs",
+                                      "Setting/RecordMangment/Lookups",
+                                      "Setting/RecordMangment/Tags"
+
+
+                      
                                 ]
                             },
                             {
                                 "group": "Corrections",
                                 "pages": [
-                                    "Setting/Corrections/overview"
+                                    "Setting/Corrections/overview",
+                                "Setting/Corrections/Lookup",
+                                  "Setting/Corrections/PatientName"
                                 ]
                             }
                         ]

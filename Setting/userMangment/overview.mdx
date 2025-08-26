@@ -1,5 +1,44 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "Users"
+description: "The Users Management page allows administrators to view, manage, and control users across the system."
 ---
 
+### Features
+
+- **User List**: Displays all system users with the following details:
+  - **Name** – Full name of the user.
+  - **Email** – User’s registered email address.
+  - **Is Enabled** – Indicates whether the user account is active.
+  - **Role** – Assigned role (e.g., Doctor, Secretary, Admin).
+- **Actions**:
+  - **Reset Password** – Sends a reset link or sets a new password for the user.
+  - **Edit** – Modify user information (name, email, role, etc.).
+  - **Remove** – Deletes the user account from the system.
+- **New User**: Add a new user to the system with assigned credentials and role.
+
+  The **New User** page allows administrators to add new users to the system and assign appropriate permissions.
+
+1. **Basic Information**
+   - **First Name / Last Name** – Required fields for the user’s full name.
+   - **Email** – Required email address for login and communication.
+   - **Phone** – Optional contact number.
+   - **Role** – Assigns the user’s role (e.g., Doctor, Secretary, Admin).
+   - **User Status** – Option to enable or disable the user account.
+2. **User Permissions**\
+   Administrators can assign fine-grained permissions for the new user, including:
+   - **Read, List, Create, Update, Delete, Manage** actions.
+   - Permission categories include:
+     - Patient Profile
+     - Patient Medical Record
+     - Patient Medical History
+     - Appointment
+     - Application Settings
+
+   **Select All / Deselect All** options are available for bulk permission assignment.
+
+### Actions
+
+- **Save** – Creates the new user with the defined role and permissions.
+- **Done** – Completes the process and returns to the user list.
+
+![Nus Pn](/images/nus.png)
