@@ -1,202 +1,198 @@
 {
-    "$schema": "https://mintlify.com/docs.json",
-    "theme": "maple",
-    "name": "MedRay",
-    "colors": {
-        "primary": "#16A34A",
-        "light": "#07C983",
-        "dark": "#15803D"
-    },
-    "favicon": "/favicon.svg",
-    "navigation": {
-        "tabs": [
-            {
-                "tab": "Documentation",
-                "groups": [
-                    {
-                        "group": "Welcome",
-                        "pages": [
-                            "Welcome/Introduction"
-                        ]
-                    },
-                    {
-                        "group": "Introduction",
-                        "pages": [
-                            "introduction/SystemOverview",
-                            "introduction/UserRole",
-                            "introduction/Corefeatures"
-                        ]
-                    },
-                    {
-                        "group": "Getting Started",
-                        "pages": [
-                            "GettingStarted/Login",
-                            "GettingStarted/LayoutGuide",
-                            "GettingStarted/Help"
-                        ]
-                    },
-                    {
-                        "group": "Patients",
-                        "pages": [
-                            "Patient/Overview",
-                            "Patient/Merge-Patients",
-                        
-                            {
-                                "group": "Conditions",
-                                "pages": [
-                                    "Patient/Record/Condition/Overview",
-                                    "Patient/Record/Condition/Addcondition",
-                                    {
-                                        "group": "Followups",
-                                        "pages": [
-                                            "Patient/Record/Condition/Followup/Overview",
-                                            "Patient/Record/Condition/Followup/Add followup"
-                                        ]
-                                    },
-                                    {
-                                        "group": "Operations",
-                                        "pages": [
-                                            "Patient/Record/Condition/Operation/Overview",
-                                            "Patient/Record/Condition/Operation/Add operation",
-                                            "Patient/Record/Condition/Operation/ICD10-Code"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "group": "Attachment",
-                                "pages": [
-                                    "Patient/Record/Attachment/Home",
-                                    "Patient/Record/Media/Filter"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Contacts",
-                        "pages": [
-                            "contacts/overview",
-                            "contacts/Addcontact"
-                        ]
-                    },
-                    {
-                        "group": "Schedule",
-                        "pages": [
-                            "Schedule/overview",
-                            "Schedule/Addappointment"
-                        ]
-                    },
-                    {
-                        "group": "Setting",
-                        "pages": [
-                            "Setting/overview",
-                            {
-                                "group": "AccountSettings",
-                                "pages": [
-                                    "Setting/AccountSettings/Account",
-                                    "Setting/AccountSettings/Subscribtion",
-                                  "Setting/AccountSettings/Schedule",
-                                  "Setting/AccountSettings/WorkHours",
-                                  "Setting/AccountSettings/Location",
-                                  "Setting/AccountSettings/Grantor"
-                                ]
-                            },
-                            {
-                                "group": "UserMangment",
-                                "pages": [
-                                    "Setting/UserMangment/overview"
-                                ]
-                            },
-                            {
-                                "group": "RecordsMangment",
-                                "pages": [
-                                    "Setting/RecordsMangment/overview",
-                                     "Setting/RecordMangment/Drugs",
-                                      "Setting/RecordMangment/Lookups",
-                                      "Setting/RecordMangment/Tags"
-
-
-                      
-                                ]
-                            },
-                            {
-                                "group": "Corrections",
-                                "pages": [
-                                    "Setting/Corrections/overview",
-                                "Setting/Corrections/Lookup",
-                                  "Setting/Corrections/PatientName"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "tab": "What is new?",
-                "groups": [
-                    {
-                        "group": "API Documentation",
-                        "pages": [
-                            "api-reference/introduction"
-                        ]
-                    },
-                    {
-                        "group": "Endpoint Examples",
-                        "pages": [
-                            "api-reference/endpoint/get",
-                            "api-reference/endpoint/create",
-                            "api-reference/endpoint/delete",
-                            "api-reference/endpoint/webhook"
-                        ]
-                    }
-                ]
-            }
-        ],
-        "global": {
-            "anchors": [
-                {
-                    "anchor": "Documentation",
-                    "href": "https://mintlify.com/docs",
-                    "icon": "book-open-cover",
-                    "hidden": true
-                },
-                {
-                    "anchor": "Community",
-                    "href": "https://mintlify.com/community",
-                    "icon": "slack",
-                    "hidden": true
-                },
-                {
-                    "anchor": "Blog",
-                    "href": "https://mintlify.com/blog",
-                    "icon": "newspaper",
-                    "hidden": true
-                }
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "MedRay",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "Welcome/Introduction"
             ]
+          },
+          {
+            "group": "Introduction",
+            "pages": [
+              "introduction/SystemOverview",
+              "introduction/UserRole",
+              "introduction/Corefeatures"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "GettingStarted/Login",
+              "GettingStarted/LayoutGuide",
+              "GettingStarted/Help"
+            ]
+          },
+          {
+            "group": "Patients",
+            "pages": [
+              "Patient/Overview",
+              "Patient/Merge-Patients",
+              {
+                "group": "Conditions",
+                "pages": [
+                  "Patient/Record/Condition/Overview",
+                  "Patient/Record/Condition/Addcondition",
+                  {
+                    "group": "Followups",
+                    "pages": [
+                      "Patient/Record/Condition/Followup/Overview",
+                      "Patient/Record/Condition/Followup/Add followup"
+                    ]
+                  },
+                  {
+                    "group": "Operations",
+                    "pages": [
+                      "Patient/Record/Condition/Operation/Overview",
+                      "Patient/Record/Condition/Operation/Add operation",
+                      "Patient/Record/Condition/Operation/ICD10-Code"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Attachment",
+                "pages": [
+                  "Patient/Record/Attachment/Home",
+                  "Patient/Record/Media/Filter"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Contacts",
+            "pages": [
+              "contacts/overview",
+              "contacts/Addcontact"
+            ]
+          },
+          {
+            "group": "Schedule",
+            "pages": [
+              "Schedule/overview",
+              "Schedule/Addappointment"
+            ]
+          },
+          {
+            "group": "Setting",
+            "pages": [
+              "Setting/overview",
+              {
+                "group": "AccountSettings",
+                "pages": [
+                  "Setting/AccountSetting/Account",
+                  "Setting/AccountSetting/Subscribtion",
+                  "Setting/AccountSetting/Schedule",
+                  "Setting/AccountSetting/WorkHours",
+                  "Setting/AccountSetting/Location",
+                  "Setting/AccountSetting/Grantor"
+                ]
+              },
+              {
+                "group": "UserMangment",
+                "pages": [
+                  "Setting/UserMangment/overview"
+                ]
+              },
+              {
+                "group": "RecordsMangment",
+                "pages": [
+                  "Setting/RecordsMangment/overview",
+                  "Setting/RecordMangment/Drugs",
+                  "Setting/RecordMangment/Lookups",
+                  "Setting/RecordMangment/Tags"
+                ]
+              },
+              {
+                "group": "Corrections",
+                "pages": [
+                  "Setting/Corrections/overview",
+                  "Setting/Corrections/Lookup",
+                  "Setting/Corrections/PatientName"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "What is new?",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover",
+          "hidden": true
+        },
+        {
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack",
+          "hidden": true
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper",
+          "hidden": true
         }
-    },
-    "logo": {
-        "light": "/logo/light.svg",
-        "dark": "/logo/dark.svg"
-    },
-    "navbar": {
-        "links": [
-            {
-                "label": "Support",
-                "href": "mailto:hi@mintlify.com"
-            }
-        ],
-        "primary": {
-            "type": "button",
-            "label": "Dashboard",
-            "href": "https://dashboard.mintlify.com"
-        }
-    },
-    "footer": {
-        "socials": {
-            "x": "https://x.com/mintlify",
-            "github": "https://github.com/mintlify",
-            "linkedin": "https://linkedin.com/company/mintlify"
-        }
+      ]
     }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  }
 }
