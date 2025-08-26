@@ -28,7 +28,7 @@
             ]
           },
           {
-            "group": "Getting Started",
+            "group": "GettingStarted",
             "pages": [
               "GettingStarted/Login",
               "GettingStarted/LayoutGuide",
@@ -36,27 +36,28 @@
             ]
           },
           {
-            "group": "Patients",
+            "group": "Patient",
             "pages": [
               "Patient/Overview",
               "Patient/Merge-Patients",
+              "Patient/Addpatient",
               {
                 "group": "Conditions",
                 "pages": [
                   "Patient/Record/Condition/Overview",
                   "Patient/Record/Condition/Addcondition",
                   {
-                    "group": "Followups",
+                    "group": "Followup",
                     "pages": [
                       "Patient/Record/Condition/Followup/Overview",
-                      "Patient/Record/Condition/Followup/Add followup"
+                      "Patient/Record/Condition/Followup/Addfollowup"
                     ]
                   },
                   {
-                    "group": "Operations",
+                    "group": "Operation",
                     "pages": [
                       "Patient/Record/Condition/Operation/Overview",
-                      "Patient/Record/Condition/Operation/Add operation",
+                      "Patient/Record/Condition/Operation/Addoperation",
                       "Patient/Record/Condition/Operation/ICD10-Code"
                     ]
                   }
@@ -66,7 +67,7 @@
                 "group": "Attachment",
                 "pages": [
                   "Patient/Record/Attachment/Home",
-                  "Patient/Record/Media/Filter"
+                  "Patient/Record/Attachment/Filter"
                 ]
               }
             ]
@@ -74,8 +75,8 @@
           {
             "group": "Contacts",
             "pages": [
-              "contacts/overview",
-              "contacts/Addcontact"
+              "Contacts/Overview",
+              "Contacts/Addcontact"
             ]
           },
           {
