@@ -94,10 +94,10 @@
                 "group": "AccountSettings",
                 "pages": [
                   "Setting/AccountSetting/Account",
-                  "Setting/AccountSetting/Subscribtion",
+                  "Setting/AccountSetting/Subscription",
                   "Setting/AccountSetting/Schedule",
                   "Setting/AccountSetting/WorkHours",
-                  "Setting/AccountSetting/Location",
+                  "Setting/AccountSetting/Locations",
                   "Setting/AccountSetting/Grantor"
                 ]
               },
@@ -111,15 +111,15 @@
                 "group": "RecordsMangment",
                 "pages": [
                   "Setting/RecordsMangment/overview",
-                  "Setting/RecordMangment/Drugs",
-                  "Setting/RecordMangment/Lookups",
-                  "Setting/RecordMangment/Tags"
+                  "Setting/RecordsMangment/Drugs",
+                  "Setting/RecordsMangment/Lookups",
+                  "Setting/RecordsMangment/Tags"
                 ]
               },
               {
                 "group": "Corrections",
                 "pages": [
-                  "Setting/Corrections/overview",
+                  "Setting/Corrections/Overview",
                   "Setting/Corrections/Lookup",
                   "Setting/Corrections/PatientName"
                 ]
