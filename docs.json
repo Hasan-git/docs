@@ -132,18 +132,9 @@
         "tab": "What is new?",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "What's new",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "whats-new/release-notes"
             ]
           }
         ]
