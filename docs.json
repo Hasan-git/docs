@@ -132,6 +132,12 @@
         "tab": "What is new?",
         "groups": [
           {
+            "group": "What's new",
+            "pages": [
+              "whats-new/release-notes"
+            ]
+          },
+          {
             "group": "API Documentation",
             "pages": [
               "api-reference/introduction"
